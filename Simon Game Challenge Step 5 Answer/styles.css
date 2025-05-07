@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #1A1A40; /* Dark background for neon contrast */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FFD1DC; /* Pastel pink */
+  text-shadow: 0 0 10px #FFD1DC, 0 0 20px #FF69B4; /* Neon glow effect */
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  box-shadow: 0 0 20px white; /* Glow effect */
+  transition: all 0.2s; /* Smooth transitions */
+}
+
+.game-over {
+  background-color: #FF6F61; /* Neon pastel red */
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF6F61; /* Neon pastel red */
+  box-shadow: 0 0 20px #FF6F61;
+}
+
+.green {
+  background-color: #77DD77; /* Neon pastel green */
+  box-shadow: 0 0 20px #77DD77;
+}
+
+.blue {
+  background-color: #89CFF0; /* Neon pastel blue */
+  box-shadow: 0 0 20px #89CFF0;
+}
+
+.yellow {
+  background-color: #FDFD96; /* Neon pastel yellow */
+  box-shadow: 0 0 20px #FDFD96;
+}
+
+.pressed {
+  box-shadow: 0 0 30px white; /* Stronger glow when pressed */
+  background-color: #D3D3D3; /* Light grey for pressed state */
+}
